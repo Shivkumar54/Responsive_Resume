@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.container_image{
+    width: 100%;
+}
+.root_image{
+    width: 100%;
+}
+.container_content{
+    width: 100%;
+    margin: 20px;
+}
+.container_root_h2{
+    font-size: 30px;
+    color: orange;
+}
+.container_root_h5{
+    font-weight: 400;
+    font-size: 15px;
+}
+.container_list{
+    width: 100%;
+    margin: 8px auto;
+}
+.container_list li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+.container_list > li > a{
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+.container_icons{
+    color: orange;
+    margin: 0 10px 0 0;
+}
+.works_and_philosophy{
+    width: 100%;
+    margin: 20px;
+}
+.philosophy_content{
+    width: 100%;
+}
+.philosophy_and_work_h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: orange;
+}
+.primary_h2_text{
+    font-size: 25px;
+    font-weight: 600;
+    color: orange;
+}
+.underline_primary{
+    width: 70%;
+    height: 4px;
+    background-color: orange;
+    display: block;
+    margin: 5px 0 ;
+}
+.philosophy_h4{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(109, 109, 109);
+
+}
+.work_h4{
+    font-weight:600;
+    margin: 10px 0 5px 0; 
+
+}
+
+.work_sub_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sub_content_icons{
+    font-size: 45px;
+    color: orange;
+    margin: 10px;
+}
+.sub_content_para{
+    color: rgb(109, 109, 109);
+}
+
+.project_certificates_skills_section{
+    width: 100%;
+    margin: 50px 20px;
+}
+.projects_certifications_container{
+    width: 100%;
+    
+}
+.project_content{
+    width: 100%;
+    
+}
+.project_primary_h3{
+    font-weight: 400;
+}
+.project_primary_h4{
+    color: orange;
+    margin: 5px 0 ;
+}
+.date_and_month{
+    margin: 10px 0 ;
+}
+
+.primary_ul_content{
+    color: rgb(109, 109, 109);
+}
+.hoorizontal_line{
+    margin: 10px 0 ;
+}
+
+.projects_certifications_container{
+    display: flex;
+    width: 100%;
+}
+.projects_certifications_container{
+    width: 100%;
+}
+
+
+/* For tablet devices start */
+@media(min-width:768px){
+    
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .container_root_h2{
+        font-size: 40px;
+    }
+    .container_root_h5{
+        font-size: 25px;
+    }
+    .container_list{
+        font-size: 20px;
+    }
+    .works_and_philosophy{
+        display: flex;
+        margin-top: 50px;
+    }
+    .work_content{
+        width: 100%;
+        margin: 0 5px;
+    }
+    .philosophy_h4{
+        font-size: 23px;
+    }
+
+    .project_certificates_skills_section{
+        display: flex;
+        width: 100%;
+    }   
+    .projects_certifications_container{
+        width: 50%;
+        margin: 0 20px;
+    } 
+    .skills_container{
+        width: 40%;
+        margin: 0 20px;
+    }
+   
+/* For tablet devices end */
+
+/* ---------------------------------------------------------- */
+
+/* For Laptop devices start */
+@media(min-width:1020px){
+    .container_image{
+        width: 100%;
+    }
+    .container_content{
+        width: 100%;
+        align-items: center;
+    }
+
+    .container_root_h2{
+        font-size: 50px;
+    }
+    .container_root_h5{
+        font-size: 30px;
+    }
+    .container_list{
+        font-size: 30px;
+    }
+    .philosophy_and_work_h2{
+        font-size: 40px;
+    }
+    .sub_content_icons{
+        font-size: 60px;
+    }
+    .work_h4{
+        font-size: 30px;
+    }
+    .philosophy_h4{
+        font-size: 30px;
+    }
+    .sub_content_para{
+        font-size: 30px;
+        
+    }
+}
+
+/* For Laptop devices end */
